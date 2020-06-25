@@ -236,10 +236,10 @@
         // x is equivalent to red and o is equivalent to green
         service.colour = function(Element) {
             if (count % 2 == 0) {
-                Element.style.background = 'url("../img/x.png") no-repeat center center/cover';
+                Element.style.background = 'url("../game/img/x.png") no-repeat center center/cover';
                 Element.x = 'x';
             } else {
-                Element.style.background = 'url("../img/o.jpg") no-repeat center center/cover';
+                Element.style.background = 'url("../game/img/o.jpg") no-repeat center center/cover';
                 Element.x = 'o';
             }
         };
